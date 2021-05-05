@@ -23,3 +23,16 @@ console.log(begalybe, begalybeMinus);
 const nesamone = NaN;
 console.log(nesamone);
 
+const a = 4;
+const b = 5;
+const c = 2;
+const d = a + b + c;
+console.log(a,b,c,d);
+
+console.log(`${a} + ${b} + ${c} = ${d}`);
+
+const x = 2 * 4 / 8;
+const y = 2 / 4 * 8;
+
+console.log(x);
+console.log(y);
