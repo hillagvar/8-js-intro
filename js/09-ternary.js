@@ -11,7 +11,9 @@ const sketis = arLyja ? 'pasiimk' : 'nereikia';                      // 'pasiimk
 
 console.log(sketis);
 
-const s1 = 4 < 2 ? 'daugiau' : 'ne daugiau';
+const s1 = 4 < 2 
+                 ? 'daugiau'
+                 : 'ne daugiau';
 console.log(s1);
 
 
@@ -29,3 +31,19 @@ if (4 > 2 ) {
     s3 = 'daugiau';
 }
 console.log(s3);
+
+/*
+Nestintas ternary
+*/
+
+const color = 'red';
+const light = true;
+
+const x1 = color === 'blue' 
+                ? light 
+                      ? 'Sviesiai melyna' 
+                      : 'Tamsiai melyna'
+                : color === 'red'
+                         ? 'Raudona' 
+                         : 'Nezinoma spalva';
+console.log(x1);
