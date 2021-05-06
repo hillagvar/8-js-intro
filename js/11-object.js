@@ -26,7 +26,7 @@ console.log(petras["likes banana"]);
 console.log(maryte.likesBanana);
 
 console.log(petras.name, petras.age, petras.color);
-console.log(maryte.age, maryte.name, maryte.color);
+console.log(maryte.name, maryte.age, maryte.color);
 
 
 console.log('--------------------');
